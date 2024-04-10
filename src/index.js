@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', function initialize() {
 
 const baseUrl = 'http://localhost:3000/films'
 
-
 function movieTitles(movies) {
   const filmList = document.querySelector('#films');
   filmList.innerHTML = ''
@@ -78,6 +77,9 @@ function updateTickets(films){
       }
   });
 }
+
+
+
 
 function ticketPurchased(filmId, numberOfTickets) {
   //create a ticketData object
