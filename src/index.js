@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function initialize() {
   getMovies();
 });
 
-const baseUrl = 'http://localhost:3000/films'
+const baseUrl = 'https://github.com/Yvonne-muthoni/challenge-3.git'
 
 function movieTitles(movies) {
   const filmList = document.querySelector('#films');
